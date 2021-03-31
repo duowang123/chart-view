@@ -1,0 +1,105 @@
+.mainWrap{
+  background: #E3E3E3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.app-main{
+  padding-top: 20px;
+  /* margin-left: 42%; */
+}
+ .app-left{
+   margin: 20px;
+   padding: 10px;
+   background: transparent;
+ }
+.app-right{
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+          box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+  margin: 20px;
+  padding: 10px;
+
+}
+.app-aside-list{
+  display: block;  
+}
+.aside-item-body{
+  border-radius: 5px;
+}
+.app-sort .app-aside-list{
+  display: none;
+}
+.widgetBorder{
+  border: 0.1px dashed rgba(0,0,0,0);
+  padding: 5px 5px;
+}
+.widgetBorder.active{
+  border: 0.1px dashed red;
+}
+.app-aside-drag{
+  height: 640px;
+}
+.aside-item-body{
+  /* display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #338EF0; */
+  color: #fff;
+  /* width: 50px;
+  height: 50px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+          box-shadow: 2px 2px 2px rgba(0,0,0,.3); */
+}
+.app-phone{
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-image: url(../assets/call1.png);
+  width: 360px;
+  height: 666px;
+  background-size: 100%;
+  padding-top: 20px;
+  background-repeat: no-repeat;
+  -webkit-box-pack:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+}
+.app-phone-body{
+  display: inline-block;
+  width: 320px;
+  height: 640px;
+  
+}
+.app-sort > div{
+  position: relative;
+}
+.delete-compontent-box{
+  position: absolute;
+  right: 4px;
+  top: 2px;
+}
+.sortItem{
+  text-align: center;
+}
+.boxEdit .el-input {
+  width: auto;
+}
